@@ -1,0 +1,22 @@
+{
+  "name": "hava-havai",
+  "version": "1.0.0",
+  "main": "src/app.js", 
+  "scripts": {
+    "start": "node src/app.js", 
+    "dev": "nodemon src/app.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
